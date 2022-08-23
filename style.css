@@ -15,7 +15,7 @@ body {
     padding-right: 15px;
     margin: 0 auto;
 }
-.row:after {
+.row:after, .menu::after {
     content:"";
     display: block;
     clear: both;
@@ -34,8 +34,8 @@ body {
     width:25%;
 }
 .col-6{
-  
-    width: 50%;
+  width: 50%;
+
 }
 .col-7{
     width: 58.33333%;
@@ -54,4 +54,25 @@ body {
 }
 .logo{
     margin-top: 7px;
+}
+.menu li{
+float: left;
+width: 25%;
+border-left: 1px solid #2c71b8;
+}
+.menu li:last-child{
+    border-right: 1px solid #2c71b8;}
+.menu a{
+    display: block;
+    height: 50px;
+    text-decoration: none;
+    color: #2c71b8;
+    font-size: 21px;
+    text-align: center;
+    line-height: 50px;
+
+}
+.menu a:hover{
+    background-color: #2c71b8;
+    color: white;
 }
