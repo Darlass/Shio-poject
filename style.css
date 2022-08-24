@@ -63,6 +63,7 @@ float: left;
 width: 25%;
 border-left: 1px solid #2c71b8;
 position: relative;
+z-index: 20;
 }
 .menu li:last-child{
     border-right: 1px solid #2c71b8;}
@@ -164,6 +165,16 @@ color: #2c71b8;
  .cart img{
     padding: 10px;
 
+ }
+ .slide {
+    height: 400px;
+    position: relative;
+    font-size: 100px;
+    color: white;
+    line-height: 400px;
+    background-color: rgba(35,90, 147,0.75);
+    text-align: center;
+    z-index: 10;
  }
 
     
