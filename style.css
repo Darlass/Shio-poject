@@ -279,13 +279,20 @@ color: #2c71b8;
 }
 .zoom, .like {
     border: 1px solid #2c71b8;
-    position: relative;
-    width: 28px;
-    height: 28px;
-    right: 9px;
-    padding: 4px;
-    float: right;
+    width: 30px;
+    height: 30px;
+    margin-bottom: 10px;
     
+}
+.like > img {
+    display: block;
+   padding-top: 6px;
+   padding-left: 5px;
+}
+.zoom > img {
+    display: block;
+    padding-top: 4px;
+    padding-left: 4px;
 }
 .product-title {
     font-size: 30px;
@@ -327,7 +334,6 @@ color: #2c71b8;
     font-size: 21px;
     font-weight: bold;
     text-align: center;
-    
 }
 .two{
     background-color: rgba(255, 255, 255, 0.25);
@@ -341,22 +347,69 @@ color: #2c71b8;
     font-weight: bold;
     text-align: center;
 }
-
 .name{
     color: white;
     font-size: 48px;
     font-weight: bold;
 }
-.breadcrumbs a {
-    display: block;
-    color: white;
+.breadcrambs a, .breadcrambs {
+    color: #7aa5d2;
     font-size: 14px;
     text-decoration: none;
     margin-top: 30px;
     margin-bottom: 30px;
 } 
-.breadcrumbs a:last-child{
+.breadcrambs a:last-child{
     text-decoration: underline;
+}
+.load-more {
+    color: white;
+    font-size: 36px;
+    text-align: center;
+    padding: 40px;
+}
+.footer{
+    background-color:#cadbed ;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    color: #2c71b8;
+    font-size: 21px;
+}
+.filter > img {
+    width: 10px;
+    height: 10px;
+}
+.filter{
+    background-color: rgba(255, 255, 255, 0.25);
+    color: white;
+    border-right: 1px solid #ffffff;
+    padding-left: 30px;
+    font-size: 21px;
+    width: 270px;
+    height: 840px;
+}
+.filter span {
+    font-weight: bold;
+}
+.square {
+    margin-bottom: 15px;
+}
+.bas{
+    margin-bottom: 65px;
+}
+.dev {
+    margin-top: 35px;
+}
+.three{
+    width: 210px;
+    height: 50px;
+    color: white;
+    background-color: #2c71b8;
+    border: 1px solid white;
+    text-align: center;
+    line-height: 50px;
+    font-size: 21px;
 }
 
 
