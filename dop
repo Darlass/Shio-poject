@@ -1,0 +1,21 @@
+<div class="square white"> Laptop </div>
+                <div class="square">Tablet</div>
+                 </div> 
+                 <div class="bas">
+                    <span>COLOR</span>
+                <div class="square">Black</div>
+                <div class="square">Red</div>
+                <div class="square white">Green</div>
+                <div class="square">Blue</div>
+                <div class="square">Orange</div>
+                 </div> 
+                <div >
+                    <span>RAM</span>
+                <div class="square">1GM</div>
+                <div class="square">2GM</div>
+                <div class="square white"> 4GM </div>
+                <div class="square">6GM</div>
+                <div class="square">8GM</div>
+                </div> 
+                <div class="square">Show more options...</div>
+                <button class="three">SUBMIT</button>

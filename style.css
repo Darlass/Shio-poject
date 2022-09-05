@@ -41,7 +41,7 @@ body {
     width: 33.33333%;
 }
 .col-6{
-  width: 50%;
+   width: 50%;
 }
 .col-7{
     width: 58.33333%;
@@ -388,6 +388,7 @@ color: #2c71b8;
     font-size: 21px;
     width: 270px;
     height: 840px;
+    margin-right: 30px;
 }
 .filter span {
     font-weight: bold;
