@@ -277,23 +277,7 @@ color: #2c71b8;
     top: 50%;
     transform: translate(-50%, -50%)
 }
-.zoom, .like {
-    border: 1px solid #2c71b8;
-    width: 30px;
-    height: 30px;
-    margin-bottom: 10px;
-    
-}
-.like > img {
-    display: block;
-   padding-top: 6px;
-   padding-left: 5px;
-}
-.zoom > img {
-    display: block;
-    padding-top: 4px;
-    padding-left: 4px;
-}
+
 .product-title {
     font-size: 30px;
     font-weight: bold;
@@ -411,6 +395,30 @@ color: #2c71b8;
     text-align: center;
     line-height: 50px;
     font-size: 21px;
+}
+.product-image::after {
+    content: "";
+    background:url(images/square_white.png) no-repeat center;
+    border: 1px solid #538cc5;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.product-image::before {
+    content:"";
+    background: url(images/heart-blue.png) no-repeat center;
+    border: 1px solid #538cc5;
+    position: absolute;
+    top: 52px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+    margin-bottom: 10px;
+
 }
 
 
