@@ -375,10 +375,11 @@ color: #2c71b8;
     margin-right: 30px;
 }
 .filter span {
-    font-weight: bold;
+    font-weight: 700;
 }
 .square {
     margin-bottom: 15px;
+    margin-top: 20px;
 }
 .dev {
     margin-top: 35px;
@@ -436,8 +437,15 @@ display: none;
     height: 10px;
     border: 1px solid white;
     cursor: pointer;
+    position: absolute;
+    left: -15px;
+    top: 7px;
+    
 }
- .square > input[type="checkbox"]:checked + label::before{
+.square label {
+    position: relative;
+}
+.square > input[type="checkbox"]:checked + label::before{
     background-color: white;
 }
 
