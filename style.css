@@ -380,11 +380,9 @@ color: #2c71b8;
 .square {
     margin-bottom: 15px;
 }
-.bas{
-    margin-bottom: 65px;
-}
 .dev {
     margin-top: 35px;
+    margin-bottom: 65px;
 }
 .three{
     width: 210px;
@@ -418,7 +416,29 @@ color: #2c71b8;
     width: 30px;
     height: 30px;
     margin-bottom: 10px;
-
+}
+.one:hover{
+    background-color: rgba(124,189,254,0.40);
+}
+.two:hover{
+    background-color: rgba(124,189,254,0.40);
+}
+.three:hover{
+    background-color: rgba(124,189,254,0.40);
+}
+input[type="checkbox"]{
+display: none;
+}
+.square > label::before{
+    content: "";
+    display: block;
+    width: 10px;
+    height: 10px;
+    border: 1px solid white;
+    cursor: pointer;
+}
+ .square > input[type="checkbox"]:checked + label::before{
+    background-color: white;
 }
 
 
