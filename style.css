@@ -404,7 +404,7 @@ color: #2c71b8;
     height: 30px;
     margin-bottom: 10px;
 }
-.zoom:hover, .zoomed {
+.zoom:hover{
     background: #538cc5 url(images/zoom-1.png) no-repeat center;
 }
 .like {

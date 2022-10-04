@@ -9,17 +9,12 @@ addToCartBtns.forEach((item) => {
     });
 });
 
-//
-let zoom = document.querySelectorAll(".zoom");
+//like
 let like = document.querySelectorAll(".like");
 
-zoom.forEach((item) => {
+like.forEach((item) => {
     item.addEventListener("click", function() {
-        if(item.classList("liked")){
-            item.classList.remove("liked")
-        } else {
-            item.classList.add("liked")
-        }
+       item.classList.toggle("liked")
     })
 })
 
