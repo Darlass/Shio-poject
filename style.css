@@ -115,7 +115,7 @@ color: #2c71b8;
     background-color: #2c71b8;
     color: white;
     }  
- .form-search {
+.form-search {
     line-height: 4px;
     border: 1px solid #2c71b8;
     width: 200px;
@@ -123,7 +123,7 @@ color: #2c71b8;
     
     
  }
- .form-search input {
+.form-search input {
     background-color:  transparent;
     border: none;
     line-height: 40px;
@@ -277,7 +277,6 @@ color: #2c71b8;
     top: 50%;
     transform: translate(-50%, -50%)
 }
-
 .product-title {
     font-size: 30px;
     font-weight: bold;
@@ -395,9 +394,8 @@ color: #2c71b8;
     line-height: 50px;
     font-size: 21px;
 }
-.product-image::after {
-    content: "";
-    background:url(images/square_white.png) no-repeat center;
+.zoom {
+   background:url(images/zoom-2.png) no-repeat center;
     border: 1px solid #538cc5;
     position: absolute;
     top: 10px;
@@ -406,10 +404,11 @@ color: #2c71b8;
     height: 30px;
     margin-bottom: 10px;
 }
-
-.product-image::before {
-    content:"";
-    background: url(images/heart-blue.png) no-repeat center;
+.zoom:hover, .zoomed {
+    background: #538cc5 url(images/zoom-1.png) no-repeat center;
+}
+.like {
+    background: url(images/heart-2.png) no-repeat center;
     border: 1px solid #538cc5;
     position: absolute;
     top: 52px;
@@ -417,6 +416,9 @@ color: #2c71b8;
     width: 30px;
     height: 30px;
     margin-bottom: 10px;
+}
+.like:hover, .liked{
+    background: #538cc5 url(images/heart-1.png) no-repeat center;
 }
 .one:hover{
     background-color: rgba(124,189,254,0.40);
