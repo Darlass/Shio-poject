@@ -44,21 +44,13 @@ $(".slide").slick({
         dots: true
 });
 //scroll
-let scrollHeight = document.documentElement.clientHeight;
-let skroll = window.pageYOffset;
-
 function scrollFunction() {
-    if (
-      document.body.scrollTop > scrollHeight / 2 || document.documentElement.scrollTop > scrollHeight / 2)
-    { 
-      modal.classList.add("show");
-      modal.classList.remove("hide");
+    if (window.pageYOffSet > document.body.scrollHeight / 2 ) { 
+        showModal();
     }
   }
 
-  window.onscroll = function () {
-    scrollFunction();
-  };
+window.addEventListener("scroll", scrollFunction);
 
   
  
