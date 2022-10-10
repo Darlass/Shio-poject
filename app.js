@@ -47,8 +47,9 @@ $(".slide").slick({
 function scrollFunction() {
     if (window.pageYOffSet > document.body.scrollHeight / 2 ) { 
         showModal();
+        window.removeEventListener("scroll", scrollFunction)
     }
-  }
+}
 
 window.addEventListener("scroll", scrollFunction);
 
