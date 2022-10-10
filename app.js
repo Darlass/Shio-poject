@@ -50,8 +50,9 @@ function scrollFunction() {
         window.removeEventListener("scroll", scrollFunction)
     }
 }
-
 window.addEventListener("scroll", scrollFunction);
+//animation 
+AOS.init();
 
   
  
