@@ -521,6 +521,14 @@ clear: both;
     height: 100%;
     display: block;
 }
+.product-quantity input{
+    width: 150px;
+}
+.product-quantity{
+    position: relative;
+    left:43px;
+    top:10px;
+}
 
 
 
